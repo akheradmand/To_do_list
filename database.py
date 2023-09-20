@@ -35,3 +35,4 @@ class Database:
         query=f"UPDATE tasks SET is_done=1 WHERE id='{id}'"
         self.cursor.execute(query)
         self.con.commit()
+        
